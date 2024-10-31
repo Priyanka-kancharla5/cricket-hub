@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Legends Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cricket Legends Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#players">Players</a></li>
+                <li><a href="#top-matches">Top Matches</a></li>
+                <li><a href="#fan-zone">Fan Zone</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to the World of Cricket!</h2>
+        <p>Your go-to destination for exploring the legends of cricket.</p>
+    </section>
+
+    <section id="players">
+        <h2>Player Profiles</h2>
+        <div class="player-profile">
+            <div class="players" id="player1">
+                <h3>Virat Kohli</h3>
+                <img src="kohli.jpeg" alt="Player Name 1">
+                <p>Career Stats: Matches: 19, Runs: 2000, Wickets: 15</p>
+                <p>Notable Achievements: Orange Cap holder, Record:2000 Runs</p>
+             </div>
+            <div class="players" id="player2">
+                <h3>Jos Buttler</h3>
+                <img src="jos butler.jpeg" alt="Player Name 1">
+                <p>Career Stats: Matches: 17, Runs: 863, Wickets: 27</p>
+                <p>Notable Achievements:  Emerging player of the season, Record: 27 Wickets </p>
+            </div>
+            <div class="players" id="player3">
+                <h3>KLRahul</h3>
+                <img src="kl rahul.jpeg" alt="Player Name 1">
+                <p>Career Stats: Matches: 15, Runs: 616, Wickets: 26</p>
+                <p>Notable Achievements: Electric striker of the season, Record Y</p>
+            </div>
+            <div class="players" id="player4">
+                <h3>Hardik Pandya</h3>
+                <img src="hardik pandya.jpeg" alt="Player Name 1">
+                <p>Career Stats: Matches: 16, Runs: 487, Wickets: 23</p>
+                <p>Notable Achievements: Game changer of the season, Record Z</p>
+            </div>
+        
+         </div>
+        <!-- Add more player profiles here -->
+    </section>
+
+    <section id="top-matches">
+        <h2>Top Matches</h2>
+        <div class="match">
+            <h3>Sunrisers Hyderabad</h3>
+            <p>Highlights of the match held on 8th may 2024<br><br><big>SRH VS LSG</big></p>
+            <iframe width="560" height="315" src="https://www.iplt20.com/video/57065/m57-srh-vs-lsg--match-highlights?tagNames=2024" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <!-- Add more matches here -->
+    </section>
+
+    <section id="fan-zone">
+        <h2>Fan Zone</h2>
+        <button id="change-background-button">Change Background</button> <!-- Add this line -->
+        <form id="fan-story-form">
+            <label for="story">Share your favorite player story:</label>
+            <textarea id="story" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="stories">
+            <!-- Fan stories will be displayed here -->
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Cricket Legends Hub</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
